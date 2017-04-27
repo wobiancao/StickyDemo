@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:orientation="vertical"
+              android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:src="@mipmap/img_header_category"
+        android:adjustViewBounds="true"
+        android:layout_height="wrap_content"/>
+    <include layout="@layout/include_header_product"/>
+</LinearLayout>
