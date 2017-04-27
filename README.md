@@ -8,7 +8,10 @@
 `demo直接用的截图`
 
 原理很简单，用RecyclerView addHeaderView的方式实现，实现步骤：
-1.导入BaseRecyclerViewAdapterHelper，用于添加HeaderView;
+1.添加依赖
+`compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.14'
+ compile 'com.android.support:recyclerview-v7:25.1.0'`
+导入BaseRecyclerViewAdapterHelper，用于RecyclerView添加HeaderView;
 2.布局，用标签include，写入需要悬浮的view；主界面用帧布局FrameLayout
 `<FrameLayout
        android:layout_width="match_parent"
