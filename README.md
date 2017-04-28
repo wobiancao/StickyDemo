@@ -39,7 +39,6 @@
 >3.逻辑，滑动的时候，对RecyclerView进行滑动监听然后在onScrollStateChanged(RecyclerView recyclerView, int newState)方法里监听悬浮View在
 ``屏幕上Y轴位移``，在onScrolled(RecyclerView recyclerView, int dx, int dy)里不停的获取headerView里面悬浮标签在``屏幕上Y轴位移``,
 进行判断悬浮view的显示或隐藏
-```
 if (mHeaderView == null) return;
                 int getTop = mHeaderView.getDistanceY();
                 if (getTop <= imageY) {
@@ -48,7 +47,8 @@ if (mHeaderView == null) return;
                     mImageView.setY(0);
                     mImageView.setVisibility(View.GONE);
                 }
-								```
+								
 
+[简书地址](http://www.jianshu.com/p/167507486ff2)
 
-简书地址：http://www.jianshu.com/p/167507486ff2
+[apk下载](https://fir.im/sticky)
